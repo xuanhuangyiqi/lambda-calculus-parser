@@ -3,7 +3,7 @@ lambda-calculus-parser
 
 A parser for lambda calculus written in Haskell.
 
-Usage:
+# Usage:
 
 Prelude> :l lambda.hs
 
