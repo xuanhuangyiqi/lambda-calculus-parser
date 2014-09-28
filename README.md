@@ -4,7 +4,7 @@ lambda-calculus-parser
 A parser for lambda calculus written in Haskell.
 
 # Usage:
-
+```
 Prelude> :l lambda.hs
 
 [1 of 1] Compiling Main             ( lambda.hs, interpreted )
@@ -31,3 +31,4 @@ LBranch [Var "z"] (GLeaf (Var "z"))
 *Main> toStr $ betaReduction a
 
 "a"
+```
